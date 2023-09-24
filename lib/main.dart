@@ -39,16 +39,16 @@ class HomePage extends StatelessWidget {
                         style: const TextStyle(
                           color: Colors.black,
                           fontSize: 27,
-                          fontWeight: FontWeight.w500,
+                          fontWeight: FontWeight.w700,
                         ),
                       ),
-                      SizedBox(width: 210),
+                      SizedBox(width: 100),
                       Text(
                         "Change",
                         style: const TextStyle(
                           color: Colors.black87,
                           fontSize: 25,
-                          fontWeight: FontWeight.w400,
+                          fontWeight: FontWeight.w700,
                         ),
                       ),
                     ],
@@ -180,7 +180,7 @@ class HomePage extends StatelessWidget {
                       Expanded(
                         child: Container(
                           padding:
-                          EdgeInsets.symmetric(vertical: 5, horizontal: 40),
+                          EdgeInsets.symmetric(vertical: 5, horizontal: 5),
                           decoration: BoxDecoration(
                             color: Colors.white,
                             borderRadius: BorderRadius.only(
